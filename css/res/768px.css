@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+    .empresa img{
+        display: none;
+    }
+    .navbar{
+        height: 15vh;
+    }
+    .navbar .empresa a{
+        font-size: 3rem;
+        padding-left: 20px;
+    }
+    .bi{
+        font-size: 3rem;
+    }
+
+    .nosotros{
+        background-image: url("../../images/princi.png");
+    }
+
+    .nosotros h1{
+        font-size: 4rem;
+    }
+    .nosotros p{
+        background-color: #1c2826c7;
+        border-radius: 10px;
+        font-size: 2rem;
+    }
+
+    input{
+        font-size: 2.4em;
+    }
+    .participar{
+        font-size: 2rem;
+    }
+
+    .window-notice {
+        right: auto;
+        top: auto;
+    }
+    .contenedor-aceptar {
+        margin-top: auto;
+    }    
+
+    .window-notice .content {
+        background: rgba(255, 255, 255, 0.637);
+        width: 100%;
+        max-width: 100%;
+        font-size: 1.6rem;
+    }
+    .aceptar{
+        font-size: 1.6rem;
+    }
+}

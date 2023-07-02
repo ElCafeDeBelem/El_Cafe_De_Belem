@@ -1,0 +1,100 @@
+@media screen and (min-width: 992px) {
+    .empresa img{
+        display: inline;
+    }
+    .navbar{
+        height: 15vh;
+    }
+    .navbar .empresa a{
+        font-size: 1.8rem;
+        padding-left: 0px;
+    }
+    .bi{
+        font-size: 2rem;
+    }
+    .contenedor{
+        height: auto;
+    }
+    .nosotros{
+        border-style: none;
+        background-image: none;
+    }
+    .nosotros h1 {
+        font-size: 2.4rem;
+        padding-bottom: 20px;
+    }
+    .nosotros p{
+        font-size: 1.4rem;
+        padding: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form{
+        height: auto;
+    }
+    input{
+        font-size: 1.2rem;
+    }
+    .formulario{
+        margin: 0px 50px;
+        height: auto;
+        margin: 0px 50px;
+    }
+    .participar{
+        padding-top: 0px;
+        height: auto;
+        font-size: 1.2rem;
+    }
+    .window-notice .content {
+        width: 100%;
+        max-width: 100%;
+    }
+    .window-notice {
+        background: rgba(33, 41, 52, .85);
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        display: flex;
+        position: fixed;
+        z-index: 999;
+    }
+    
+    .window-notice .content {
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+        box-sizing: content-box;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 600px;
+        min-width: 320px !important;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+        font-size: 1.3rem;
+    }
+    
+    .contenedor-aceptar{
+        text-align: right;
+    }
+    
+    .aceptar {
+        font-size: 1.2rem;
+        border-radius: 10px;
+        border: none;
+        padding: 5px;
+        background-color: #1c2826;
+        text-decoration: none;
+        padding: 10px;
+        color: #ffffff;
+    }
+    
+    .aceptar:hover {
+        background-color: #FFBD6E;
+        transition: all 0.5s;
+        color: #1c2826;
+    }
+  }
